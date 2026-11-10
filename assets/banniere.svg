@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="nodyxstudio · dev indépendant">
+  <style>
+    .name{font:800 54px "Segoe UI",Helvetica,Arial,sans-serif;fill:#ffffff;letter-spacing:-1px}
+    .sub{font:500 19px "Segoe UI",Helvetica,Arial,sans-serif;fill:#9fb3c8}
+    .cur{fill:#3ddc97;animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .reveal{clip-path:inset(0 100% 0 0);animation:type 1.6s steps(12) .3s forwards}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    .fade{opacity:0;animation:in .9s ease-out 1.9s forwards}
+    @keyframes in{to{opacity:1}}
+    .b{animation:float 9s ease-in-out infinite}
+    .b2{animation-duration:12s;animation-delay:-3s}.b3{animation-duration:15s;animation-delay:-6s}
+    @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-14px)}}
+    .dot{animation:tw 3s ease-in-out infinite}
+    .dt2{animation-delay:1s}.dt3{animation-delay:2s}
+    @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+    .line{stroke:#3ddc97;stroke-width:3;stroke-linecap:round;stroke-dasharray:120 900;animation:run 6s linear infinite}
+    @keyframes run{from{stroke-dashoffset:120}to{stroke-dashoffset:-900}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.reveal{clip-path:none}.fade{opacity:1}}
+  </style>
+  <defs>
+    <radialGradient id="g1"><stop offset="0" stop-color="#3ddc97" stop-opacity=".35"/><stop offset="1" stop-color="#3ddc97" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#ffc531" stop-opacity=".22"/><stop offset="1" stop-color="#ffc531" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3"><stop offset="0" stop-color="#6c8cff" stop-opacity=".28"/><stop offset="1" stop-color="#6c8cff" stop-opacity="0"/></radialGradient>
+    <clipPath id="card"><rect width="900" height="220" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="900" height="220" fill="#10131a"/>
+    <!-- halos de couleur qui flottent doucement -->
+    <circle class="b" cx="740" cy="60" r="150" fill="url(#g1)"/>
+    <circle class="b b2" cx="820" cy="190" r="120" fill="url(#g2)"/>
+    <circle class="b b3" cx="120" cy="200" r="140" fill="url(#g3)"/>
+    <!-- petites étoiles qui scintillent -->
+    <g fill="#ffffff">
+      <circle class="dot" cx="640" cy="40" r="2"/><circle class="dot dt2" cx="700" cy="150" r="1.6"/><circle class="dot dt3" cx="790" cy="110" r="2.2"/>
+      <circle class="dot dt2" cx="560" cy="180" r="1.5"/><circle class="dot" cx="850" cy="40" r="1.6"/><circle class="dot dt3" cx="600" cy="100" r="1.4"/>
+    </g>
+    <!-- nom tapé au clavier, avec le curseur -->
+    <text class="name reveal" x="64" y="104">nodyxstudio<tspan class="cur">_</tspan></text>
+    <!-- sous-titre -->
+    <text class="sub fade" x="66" y="146">Dev indépendant · vibe coding</text>
+    <text class="sub fade" x="66" y="174" style="fill:#6f8295;font-size:16px">J'apprends en construisant des applis. Suis-moi pour voir ce que je fais.</text>
+    <!-- trait lumineux qui parcourt le bas -->
+    <line class="line" x1="0" y1="218" x2="900" y2="218"/>
+  </g>
+</svg>
