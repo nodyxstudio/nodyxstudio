@@ -31,9 +31,9 @@ Pas de grand discours, je montre juste ce que je fais. Si ça t’intéresse, su
     </td>
     <td width="50%" valign="top">
       <a href="https://nodyxstudio.github.io/Tableau-electrique/">
-        <img src="https://raw.githubusercontent.com/nodyxstudio/Tableau-electrique/main/docs/apercu.png" alt="Tableau Malin : un tableau électrique dessiné avec le contrôle de la norme">
+        <img src="https://raw.githubusercontent.com/nodyxstudio/Tableau-electrique/main/docs/apercu.png" alt="Chouette Tableau : un tableau électrique dessiné avec le contrôle de la norme">
       </a>
-      <h3><a href="https://nodyxstudio.github.io/Tableau-electrique/">Tableau Malin</a></h3>
+      <h3><a href="https://nodyxstudio.github.io/Tableau-electrique/">Chouette Tableau</a></h3>
       Dessiner son tableau électrique en glissant les disjoncteurs.
       Il vérifie la norme NF C 15-100 au fur et à mesure, dit ce que le Consuel refuserait et pourquoi, puis sort le PDF et la liste de matériel.
       Ça s’ouvre dans le navigateur, sans compte.
