@@ -4,6 +4,20 @@
 
 ## Mes projets
 
+<h3><img src="https://raw.githubusercontent.com/nodyxstudio/strix-monitor/main/docs/images/logo.png" width="30" align="top" alt=""> Strix Monitor</h3>
+
+Voir la température de chaque composant du PC en direct, avec ce qui est normal ou pas.
+Un encart dans la barre des tâches, le contrôle des ventilateurs, et des sessions à enregistrer pendant un benchmark.
+100 % local : rien ne quitte ton PC.
+
+<a href="https://github.com/nodyxstudio/strix-monitor"><img src="https://raw.githubusercontent.com/nodyxstudio/strix-monitor/main/docs/images/apercu.png" width="100%" alt="Strix Monitor : les températures de chaque composant, les ventilateurs et l'analyse d'une session"></a>
+
+<p>
+  <a href="https://github.com/nodyxstudio/strix-monitor/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger_Strix_Monitor-8ab4e8?style=for-the-badge&logo=windows&logoColor=10131a" alt="Télécharger Strix Monitor"></a>
+  <img src="https://img.shields.io/badge/C%23-10131a?style=for-the-badge&logo=dotnet&logoColor=A179DC" alt="C#">
+  <img src="https://img.shields.io/badge/.NET_8-10131a?style=for-the-badge&logo=dotnet&logoColor=512BD4" alt=".NET 8">
+</p>
+
 <h3><img src="https://raw.githubusercontent.com/nodyxstudio/Owlguard/main/docs/logo.svg" width="30" align="top" alt=""> Owlguard</h3>
 
 Nettoyer et optimiser son PC Windows, comme CCleaner ou Glary Utilities, mais 100 % local.
